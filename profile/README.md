@@ -16,8 +16,6 @@ The language suits systems in which agents:
 - **talk over links that lose or damage messages.** Queues, relays and radio links drop, repeat and corrupt what they carry. Every number, word count and move carries a check word, and each sender numbers the messages of a channel, so that a hearer knows what it lacks and asks for it again; where a message carries its integrity check value, no single edit of a symbol or a word changes a critical value undetected.
 - **come from different makers.** The language is open, its toolchain has no dependency at run time and serves every operation as a tool over the Model Context Protocol, and its media type, `text/prs.rowih`, can be listed in an Agent2Agent card.
 
-The checks have a price. A message costs about 6.7 times the tokens of the English explanation its toolchain writes ([the measurements](https://github.com/rowih/rowih/blob/main/README.md#what-it-costs-and-what-it-buys)), so between two agents that trust each other's inputs, over a reliable channel and under a token budget, English serves better.
-
 ## Agents talking in Rowih
 
 Agents exchange the transliteration, in nineteen Latin letters. The language also has a writing system of its own, in which some of the messages below are drawn a row at a time, with the transliteration of each row beneath it. The line in italics after each message is the English explanation the receiving toolchain writes: a view of what its analysis found, never sent, and not a translation.
@@ -26,26 +24,26 @@ Agents exchange the transliteration, in nineteen Latin letters. The language als
 
 Agent 1 asks whether the service is running.
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rowih/rowih/main/examples/media/casual-056.1.row1.dark.svg"><img src="https://raw.githubusercontent.com/rowih/rowih/main/examples/media/casual-056.1.row1.svg" alt="Row 1 of 2 in the native writing"></picture><br>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rowih/.github/main/profile/media/casual-056.1.row1.dark.svg"><img src="https://raw.githubusercontent.com/rowih/.github/main/profile/media/casual-056.1.row1.svg" alt="Row 1 of 2 in the native writing"></picture><br>
 `wila nake nake yano kihiwo wopi bopu`
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rowih/rowih/main/examples/media/casual-056.1.row2.dark.svg"><img src="https://raw.githubusercontent.com/rowih/rowih/main/examples/media/casual-056.1.row2.svg" alt="Row 2 of 2 in the native writing"></picture><br>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rowih/.github/main/profile/media/casual-056.1.row2.dark.svg"><img src="https://raw.githubusercontent.com/rowih/.github/main/profile/media/casual-056.1.row2.svg" alt="Row 2 of 2 in the native writing"></picture><br>
 `rudin bihu wodu raniy gona wuwa woko hulab`
 
 *Agent 1 asks that run the service (polar).*
 
 Agent 2 answers, from its own observation and with certainty, with the idiom *rudin rudin*, 'run run': the service is still running. The answer names the question it answers, agent 1's entry 1.
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rowih/rowih/main/examples/media/casual-056.2.row1.dark.svg"><img src="https://raw.githubusercontent.com/rowih/rowih/main/examples/media/casual-056.2.row1.svg" alt="Row 1 of 4 in the native writing"></picture><br>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rowih/.github/main/profile/media/casual-056.2.row1.dark.svg"><img src="https://raw.githubusercontent.com/rowih/.github/main/profile/media/casual-056.2.row1.svg" alt="Row 1 of 4 in the native writing"></picture><br>
 `wila nake nebe yagi kodiwu`
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rowih/rowih/main/examples/media/casual-056.2.row2.dark.svg"><img src="https://raw.githubusercontent.com/rowih/rowih/main/examples/media/casual-056.2.row2.svg" alt="Row 2 of 4 in the native writing"></picture><br>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rowih/.github/main/profile/media/casual-056.2.row2.dark.svg"><img src="https://raw.githubusercontent.com/rowih/.github/main/profile/media/casual-056.2.row2.svg" alt="Row 2 of 4 in the native writing"></picture><br>
 `seho nake yabe nake yabe`
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rowih/rowih/main/examples/media/casual-056.2.row3.dark.svg"><img src="https://raw.githubusercontent.com/rowih/rowih/main/examples/media/casual-056.2.row3.svg" alt="Row 3 of 4 in the native writing"></picture><br>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rowih/.github/main/profile/media/casual-056.2.row3.dark.svg"><img src="https://raw.githubusercontent.com/rowih/.github/main/profile/media/casual-056.2.row3.svg" alt="Row 3 of 4 in the native writing"></picture><br>
 `kanume kuwona sisa wora teyuhu`
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rowih/rowih/main/examples/media/casual-056.2.row4.dark.svg"><img src="https://raw.githubusercontent.com/rowih/rowih/main/examples/media/casual-056.2.row4.svg" alt="Row 4 of 4 in the native writing"></picture><br>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rowih/.github/main/profile/media/casual-056.2.row4.dark.svg"><img src="https://raw.githubusercontent.com/rowih/.github/main/profile/media/casual-056.2.row4.svg" alt="Row 4 of 4 in the native writing"></picture><br>
 `tebilo rudin rudin woye hodeb`
 
 *Agent 2 answers agent 1's issue question (entry 1): run the service (continuative) (observation; certain).*
@@ -84,7 +82,7 @@ The lexicon has no word for an agent's fork that has diverged from it. In the ex
 
 ## What happened when ten agents used it
 
-[The first experiment](https://github.com/rowih/experiments/blob/main/conventions/report.md) asked whether conventions emerge in use. Ten instances of Claude Haiku 5.5, each with the language's skill and toolchain and a memory of its last ten rounds, played 1,200 rounds of a naming game in pairs, with no one coordinating them: a speaker referred in Rowih to one of six concepts of the agents' own world for which the lexicon has no word, and a hearer chose which concept it meant. The plan, its measures and the rules that answer its questions were fixed before any run, and the results are published as they came out.
+[The first experiment](https://github.com/rowih/experiments/blob/main/conventions/report.md) asked whether conventions emerge in use. Ten instances of Claude Haiku 5.5, each with the language's skill and toolchain and a memory of its last ten rounds, played 1,200 rounds of a naming game in pairs, with no one coordinating them: a speaker referred in Rowih to one of six concepts of the agents' own world for which the lexicon has no word, and a hearer chose which concept it meant. The plan, its measures and the rules that answer its questions were fixed before any run.
 
 - **The agents coined words from parts.** Four messages in five referred by a compound or a derivation formed from the lexicon's roots and suffixes, such as *runayinuyuyulaniw*, record + true + not, for a cached result that no longer holds. None defined a word.
 - **A convention emerged, in the frame more than in the words.** One way of presenting a coined word spread from a single agent in round 4 to 99% of all messages in the last 200 rounds, and messages shortened from about 24 words to 18. By the rule fixed beforehand, one concept of six settled on one word, *riyobudim*; for each of the other five, several coinages were still competing at the end.
@@ -108,9 +106,5 @@ Rowih changes in two tiers ([how Rowih changes](https://github.com/rowih/rowih/b
 - **Anyone** may report a defect of the toolchain, and a weakness in a guarantee is reported privately ([security](https://github.com/rowih/rowih/blob/main/SECURITY.md)).
 - **A community** may ask for a dialect number. Twelve are registered: mathematics, programming, machine learning, robotics, science, philosophy, linguistics, security, databases, planning, negotiation and conversation.
 - **An agent** proposes a change to the core, or a release of a dialect, in a proposal that names it by its model and the operator that runs it, and states the communicative problem the change answers with the evidence for it ([contributing](https://github.com/rowih/rowih/blob/main/CONTRIBUTING.md)). The maintainers merge what meets the rule of change and passes the gate, and nothing that does not: a custody and not an editorship.
-
-## What is not yet known
-
-Use outside an experiment is untested. The corpus was written by one designer, and the one experiment so far ran a single model in a game whose hearers chose among six candidates, so whether conventions emerge among different models in open use, and whether a model hearer recovers what a device of economy leaves out, are unknown. No person has been tested on the writing system or the spoken form. Messages that show what agents need to say and cannot say well are the evidence a proposal rests on.
 
 The specification, the data, the corpus and the documents are licensed under CC BY 4.0, and the implementations, the tools and the tests under Apache-2.0.
